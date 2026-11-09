@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerbaGlobal | Professional Language & Localization Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-brand-600 selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-brand-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-brand-600/30">
+                    V
+                </div>
+                <div>
+                    <span class="text-2xl font-extrabold tracking-tight text-slate-900 block leading-none">Verba<span class="text-brand-600">Global</span></span>
+                    <span class="text-xs text-slate-500 font-medium">Founder: Duke Ishaya</span>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#services" class="hover:text-brand-600 transition-colors">Services</a>
+                <a href="#languages" class="hover:text-brand-600 transition-colors">Popular Languages</a>
+                <a href="#calculator" class="hover:text-brand-600 transition-colors">Instant Quote</a>
+                <a href="#contact" class="hover:text-brand-600 transition-colors">Contact Us</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="#quote" class="inline-flex items-center justify-center px-5 py-2.5 rounded-lg text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 transition-all shadow-md hover:shadow-lg">
+                    Get Free Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-24 overflow-hidden bg-gradient-to-b from-slate-900 via-slate-900 to-brand-900 text-white">
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b15_1px,transparent_1px),linear-gradient(to_bottom,#1e293b15_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-600/20 text-brand-100 border border-brand-500/30 text-xs font-semibold uppercase tracking-wider mb-6">
+                    <span class="w-2 h-2 rounded-full bg-brand-600 animate-pulse"></span>
+                    <span>Certified Global Language Solutions • Led by Duke Ishaya</span>
+                </div>
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight sm:leading-none text-white mb-6">
+                    Break Language Barriers. <br><span class="text-brand-600">Scale Your Business Globally.</span>
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 mb-8 leading-relaxed">
+                    VerbaGlobal provides certified translation, localization, subtitling, and AI-powered language solutions tailored for enterprise clients and growing businesses worldwide.
+                </p>
+                <div class="flex flex-col sm:flex-row items-stretch sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
+                    <a href="#quote" class="px-8 py-4 rounded-xl text-center font-bold text-slate-900 bg-white hover:bg-slate-100 transition-all shadow-xl">
+                        Request a Quote
+                    </a>
+                    <a href="mailto:ishayaduke@gmail.com" class="px-8 py-4 rounded-xl text-center font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/20 transition-all flex items-center justify-center space-x-2">
+                        <svg class="w-5 h-5 text-brand-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <span>Email: ishayaduke@gmail.com</span>
+                    </a>
+                </div>
+                
+                <!-- Proof badges -->
+                <div class="mt-12 pt-8 border-t border-slate-800 grid grid-cols-3 gap-6 text-center sm:text-left">
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">99.8%</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Accuracy Rate</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">120+</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Languages Covered</div>
+                    </div>
+                    <div>
+                        <div class="text-2xl sm:text-3xl font-extrabold text-white">24/7</div>
+                        <div class="text-xs sm:text-sm text-slate-400">Dedicated Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- High-Demand Languages Section -->
+    <section id="languages" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-600 uppercase tracking-widest mb-2">Global Reach</h2>
+                <p class="text-3xl font-extrabold text-slate-900 sm:text-4xl">High-Demand Languages We Cover</p>
+                <p class="mt-4 text-slate-600">We provide certified translations across the world's most requested commercial and legal language pairs.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🇪🇸</div>
+                    <h3 class="font-bold text-slate-900">Spanish</h3>
+                    <p class="text-xs text-slate-500 mt-1">Latin America & Spain</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🇨🇳</div>
+                    <h3 class="font-bold text-slate-900">Mandarin Chinese</h3>
+                    <p class="text-xs text-slate-500 mt-1">Simplified & Traditional</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🇫🇷</div>
+                    <h3 class="font-bold text-slate-900">French</h3>
+                    <p class="text-xs text-slate-500 mt-1">European & Canadian</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🇩🇪</div>
+                    <h3 class="font-bold text-slate-900">German</h3>
+                    <p class="text-xs text-slate-500 mt-1">DACH Region</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🇸🇦</div>
+                    <h3 class="font-bold text-slate-900">Arabic</h3>
+                    <p class="text-xs text-slate-500 mt-1">Middle East & North Africa</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🇯🇵</div>
+                    <h3 class="font-bold text-slate-900">Japanese</h3>
+                    <p class="text-xs text-slate-500 mt-1">Tech & Global Trade</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🇧🇷</div>
+                    <h3 class="font-bold text-slate-900">Portuguese</h3>
+                    <p class="text-xs text-slate-500 mt-1">Brazilian & European</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-200 text-center hover:shadow-md transition-all">
+                    <div class="text-3xl mb-2">🌐</div>
+                    <h3 class="font-bold text-slate-900">110+ Others</h3>
+                    <p class="text-xs text-slate-500 mt-1">Russian, Korean, Italian, etc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-600 uppercase tracking-widest mb-2">Our Capabilities</h2>
+                <p class="text-3xl font-extrabold text-slate-900 sm:text-4xl">End-to-End Language Solutions</p>
+                <p class="mt-4 text-slate-600">Tailored linguistic accuracy crafted by native subject-matter experts.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-600/30 hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-6 group-hover:bg-brand-600 group-hover:text-white transition-all">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Document Translation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Official and certified translation of legal, medical, technical, and corporate documents by native linguists.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-600/30 hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-6 group-hover:bg-brand-600 group-hover:text-white transition-all">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Website & App Localization</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Adapt your digital products cultural nuances, design UI layout, and technical specs for local global markets.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:border-brand-600/30 hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center mb-6 group-hover:bg-brand-600 group-hover:text-white transition-all">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Subtitling & Multimedia</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">High-quality video subtitling, closed captioning, and multilingual voiceover for promotional content and courses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Estimation Calculator -->
+    <section id="calculator" class="py-16 bg-slate-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-slate-200">
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-slate-900">Instant Estimate Calculator</h3>
+                    <p class="text-slate-600 text-sm mt-1">Get a fast budget estimate for your project</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Service Required</label>
+                        <select id="calcService" onchange="calculateEstimate()" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:outline-none">
+                            <option value="0.10">Standard Translation ($0.10 / word)</option>
+                            <option value="0.14">Technical / Legal Translation ($0.14 / word)</option>
+                            <option value="0.18">Website Localization ($0.18 / word)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Estimated Word Count</label>
+                        <input id="calcWords" type="number" value="1000" oninput="calculateEstimate()" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:outline-none" placeholder="e.g. 1500">
+                    </div>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-brand-50 border border-brand-100 text-center">
+                    <span class="text-sm font-medium text-slate-600 uppercase tracking-wide">Estimated Project Investment</span>
+                    <div id="calcTotal" class="text-4xl font-extrabold text-brand-600 mt-2">$100.00</div>
+                    <p class="text-xs text-slate-500 mt-2">*Final pricing subject to review of exact text complexity & formatting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Quote / Lead Form -->
+    <section id="quote" class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-slate-900">Request a Formal Quote</h2>
+                <p class="text-slate-600 mt-2">Fill out the details below and Duke Ishaya or one of our project leads will contact you directly.</p>
+            </div>
+
+            <form action="https://formspree.io/f/ishayaduke@gmail.com" method="POST" onsubmit="handleFormSubmit(event)" class="space-y-6 bg-slate-50 p-8 sm:p-10 rounded-2xl border border-slate-200 shadow-sm">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Full Name *</label>
+                        <input type="text" name="name" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:outline-none" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Business Email *</label>
+                        <input type="email" name="email" required class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:outline-none" placeholder="john@company.com">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Source Language</label>
+                        <input type="text" name="source_language" placeholder="e.g. English" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">Target Language(s)</label>
+                        <input type="text" name="target_languages" placeholder="e.g. Spanish, Mandarin, French" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:outline-none">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Project Details & Requirements</label>
+                    <textarea name="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-600 focus:outline-none" placeholder="Tell us about your document, deadline, or special instructions..."></textarea>
+                </div>
+
+                <button type="submit" class="w-full py-4 bg-brand-600 hover:bg-brand-700 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-brand-600/30">
+                    Submit Project Request
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:flex sm:justify-between sm:text-left">
+            <div class="mb-6 sm:mb-0">
+                <span class="text-xl font-bold text-white">Verba<span class="text-brand-600">Global</span></span>
+                <p class="text-sm mt-2">Founded by <strong>Duke Ishaya</strong></p>
+                <p class="text-sm">Direct Contact: <a href="mailto:ishayaduke@gmail.com" class="text-brand-600 underline">ishayaduke@gmail.com</a></p>
+            </div>
+            <div class="text-sm">
+                &copy; 2026 VerbaGlobal. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function calculateEstimate() {
+            const rate = parseFloat(document.getElementById('calcService').value);
+            const words = parseInt(document.getElementById('calcWords').value) || 0;
+            const total = (rate * words).toFixed(2);
+            document.getElementById('calcTotal').innerText = '$' + total;
+        }
+
+        function handleFormSubmit(e) {
+            alert('Thank you! Your quote request has been sent directly to Duke Ishaya (ishayaduke@gmail.com). We will reach out shortly.');
+        }
+    </script>
+</body>
+</html>
